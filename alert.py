@@ -21,7 +21,7 @@ last_row = df.iloc[-1]
 
 print(last_row)
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/860718313101459456/1I2jOh1MYVIsPC30_EI3MnEvKdG-WnPByRDelQd5OgL9i4kzl84MBL7kdtcRLuGTFWYO"
+WEBHOOK_URL = "your discord webhook url here"
 
 if last_row['ADX_14'] >= 25:
     if last_row['DMP_14'] > last_row['DMN_14']:
