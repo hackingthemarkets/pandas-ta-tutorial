@@ -2,6 +2,4 @@ pandas
 pandas-ta
 yfinance
 ccxt
-streamlit
-plotly
 requests
