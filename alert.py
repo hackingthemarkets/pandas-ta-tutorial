@@ -38,7 +38,6 @@ if last_row['ADX_14'] >= 25:
 
 if last_row['ADX_14'] < 25:
     message = f"NO TREND: The ADX is {last_row['ADX_14']:.2f}"
-    print(message)
 
     payload = {
         "username": "alertbot",
